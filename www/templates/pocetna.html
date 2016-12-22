@@ -1,0 +1,16 @@
+<ion-view view-title="Početna">
+    <ion-content>
+        <form ng-submit="posalji()">
+            <label class="item item-input">
+                <span class="input-label">FOAF</span>
+                <input type="text" ng-model="foaf.svojstvo">
+            </label>
+            <button type="submit" class="button button-block button-balanced">Pošalji</button>
+        </form>
+        <div class="row">
+            <div class="col">
+                {{foaf.odgovor}}
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
