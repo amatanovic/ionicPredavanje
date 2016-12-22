@@ -24,9 +24,11 @@ da se npm može izvoditi bez sudo
 - `cd ionicPredavanje`
 - `npm install` 
 - `ionic serve` 
+
 #####Android
 - `ionic platform add android`
 - `ionic build android`
+
 #####iOS
 - `ionic platform add ios`
 - `ionic build ios`
