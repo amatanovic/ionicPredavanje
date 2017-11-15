@@ -5,31 +5,31 @@ Programiranje 3 na temu Uvod u razvoj hibridnih aplikacija gdje se u praktičnom
 Androd i iOS aplikacija koristeći Ionic Framework.
 
 ## Instalacija
-###Node.js
+### Node.js
 Prije svega je potrebno instalirati Node.js
-#####Windows
+##### Windows
 Može se preuzeti [ovdje](https://nodejs.org).
 
-#####Linux i Mac OS
+##### Linux i Mac OS
 - `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
 - `sudo apt-get install -y nodejs` <br />
 - [Popravak ovlasti](https://docs.npmjs.com/getting-started/fixing-npm-permissions) 
 da se npm može izvoditi bez sudo
 
-###Ionic framework
+### Ionic framework
  - `npm install -g cordova ionic`
 
-###Projekt
+### Projekt
 - `git clone https://github.com/amatanovic/ionicPredavanje.git`
 - `cd ionicPredavanje`
 - `npm install` 
 - `ionic serve` 
 
-#####Android
+##### Android
 - `ionic platform add android`
 - `ionic build android`
 
-#####iOS
+##### iOS
 - `ionic platform add ios`
 - `ionic build ios`
 
